@@ -39,7 +39,13 @@ img {
 
 ul,
 ol {
-  margin: 30px 0;
+  margin: 1.5em 0;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: square;
 }
 
 li {
@@ -102,6 +108,7 @@ a:active {
 	padding-top: 80px;
 	padding-bottom: 70px;
   border-bottom: 2px solid #dfe2e6;
+  /*overflow: auto;*/
 }
 
 .callout {
